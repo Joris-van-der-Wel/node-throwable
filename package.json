@@ -1,0 +1,68 @@
+{
+  "name": "throwable",
+  "version": "1.0.0",
+  "description": "Inherit from Error without performance penalties, instanceof behaves as expected and the error stack is correct",
+  "main": "lib/Throwable.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "istanbul cover ./node_modules/nodeunit/bin/nodeunit test/Throwable.js",
+    "posttest": "jshint lib/Throwable.js test/Throwable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joris-van-der-Wel/node-throwable.git"
+  },
+  "keywords": [
+    "error",
+    "exception",
+    "throwable",
+    "inherit",
+    "inherits",
+    "stack",
+    "performance",
+    "browser",
+    "browserify",
+    "catch",
+    "instanceof",
+    "wrap",
+    "decorator"
+  ],
+  "author": "Joris van der Wel <joris@jorisvanderwel.com>",
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/Joris-van-der-Wel/node-throwable/issues"
+  },
+  "homepage": "https://github.com/Joris-van-der-Wel/node-throwable",
+  "devDependencies": {
+    "inherits": "^2.0.1",
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.3",
+    "nodeunit": "^0.9.1"
+  },
+  "jshintConfig": {
+    "node": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "freeze": true,
+    "immed": true,
+    "indent": 8,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "nonbsp": true,
+    "nonew": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": "vars",
+    "strict": true,
+    "laxbreak": true
+  }
+}
