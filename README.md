@@ -22,7 +22,7 @@ require('inherits')(MyError, Throwable);
 ```
 
 And this is how you can throw your error:
-```
+```javascript
 function failure()
 {
         throw new MyError(Error('Something went wrong!'));
