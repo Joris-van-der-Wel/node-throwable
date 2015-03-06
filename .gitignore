@@ -2,3 +2,4 @@ coverage/
 throwable.iml
 .idea/
 node_modules/
+npm-debug.log
