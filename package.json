@@ -1,6 +1,6 @@
 {
   "name": "throwable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inherit from Error without performance penalties, instanceof behaves as expected and the error stack is correct",
   "main": "lib/Throwable.js",
   "directories": {
