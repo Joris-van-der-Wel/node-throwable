@@ -4,7 +4,7 @@ Inherit from Error without performance penalties, `instanceof` behaves as expect
 
 Usage
 -----
-A lot of solutions for inheriting from `Error` in javascript is error-prone (pun intended) and tricky.
+A lot of solutions for inheriting from `Error` in javascript are error-prone (pun intended) and tricky.
 
 Using this library you can inherit `Error` just like you would inherit from any other javascript object/class.
 Here is an example using the [inherits](https://www.npmjs.com/package/inherits) library.
